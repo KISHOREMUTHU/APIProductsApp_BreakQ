@@ -1,0 +1,186 @@
+name: api_endpoint
+description: A new Flutter application.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  carousel_pro: ^1.0.0
+
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.7.4
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/web_hi_res_512.png"
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/baconpress.jpg
+    - assets/plumglove.jpg
+    - assets/rubberkeyboard.jpg
+    - assets/salmontowel.jpg
+    - assets/woodenshoe.jpg
+    - assets/cyanhat.jpg
+    - assets/bike.jpg
+    - assets/mintpizza.jpg
+    - assets/mintball.jpg
+    - assets/redshirt.jpg
+    - assets/tuna.jpg
+    - assets/blackchip.jpg
+    - assets/maroonhat.jpg
+    - assets/woodentuna.jpg
+    - assets/greencheese.jpg
+    - assets/salad.jpg
+    - images1/salmonsalad.jpg
+    - images1/granitepant.jpg
+    - images1/frozenball.jpg
+    - images1/frozenchicken.jpg
+    - images1/frozenglove.jpg
+    - images1/blueglove.jpg
+    - images1/softsalad.jpg
+    - images1/soapdish.jpg
+    - images1/metalsalad.jpg
+    - images1/woodenball.jpg
+    - images1/31.jpg
+    - images1/32.jpg
+    - images1/33.jpg
+    - images1/34.jpg
+    - images1/35.jpg
+    - images1/36.jpg
+    - images1/37.jpg
+    - images1/39.jpg
+    - images1/40.jpg
+    - images1/41.jpg
+    - images1/42.jpg
+    - images1/43.png
+    - images1/44.jpg
+    - images1/45.jpg
+    - images1/46.jpg
+    - images1/47.jpg
+    - images1/48.jpg
+    - images1/49.jpg
+    - images1/50.jpg
+    - images1/51.jpg
+    - images1/52.jpg
+    - images1/53.jpg
+    - images1/54.jpg
+    - images1/55.jpg
+    - images1/56.jpg
+    - images1/57.jpg
+    - images1/58.jpg
+    - images1/59.jpg
+    - images1/60.jpg
+    - images1/61.jpg
+    - images1/62.jpg
+    - images1/63.jpg
+    - images1/64.jpg
+    - images1/65.jpg
+    - images1/66.jpg
+    - images1/67.jpg
+    - images1/68.jpg
+    - images1/69.jpg
+    - images1/70.jpg
+    - images1/71.jpg
+    - images1/72.jpg
+    - images1/73.jpg
+    - images1/74.jpg
+    - images1/75.jpg
+    - images1/76.jpg
+    - images1/77.jpg
+    - images1/78.jpg
+    - images1/79.png
+    - images1/80.jpg
+    - images1/81.jpg
+    - images1/82.jpg
+    - images1/83.jpg
+    - images1/84.jpg
+    - images1/85.jpg
+    - images1/86.jpg
+    - images1/87.jpg
+    - images1/88.jpg
+    - images1/89.jpg
+    - images1/90.jpg
+    - images1/91.jpg
+    - images1/92.jpg
+    - images1/93.jpg
+    - images1/94.jpeg
+    - images1/95.jpg
+    - images1/96.jpg
+    - images1/97.jpg
+    - images1/98.jpg
+    - images1/99.jpg
+    - images1/100.jpg
+
+
+    - assets/metalpizza.jpg
+    - assets/indigobike.jpg
+    - assets/olivechair.jpg
+    - assets/goldhat.jpg
+    - assets/magentaball.jpg
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Tinos
+      fonts:
+        - asset: fonts/Tinos-BoldItalic.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
