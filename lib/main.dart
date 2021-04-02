@@ -1,3 +1,4 @@
+import 'package:api_endpoint/cart.dart';
 import 'package:api_endpoint/products.dart';
 import 'package:flutter/material.dart';
 import 'package:carousel_pro/carousel_pro.dart';
@@ -53,7 +54,9 @@ class _HomePageState extends State<HomePage> {
           color : Colors.white,),
           IconButton(
             icon : Icon(Icons.shopping_cart),
-            onPressed: (){},
+            onPressed: (){
+              Navigator.push(context, MaterialPageRoute(builder: (context) => Cart()));
+            },
             color : Colors.white,),
 
 
@@ -119,18 +122,19 @@ class _HomePageState extends State<HomePage> {
               onTap: (){     }   ,
 
               child: ListTile(
-                title : Text ('My Cart'),
+                title : Text ('My Orders'),
                 leading : Icon (Icons.shopping_basket,
                   color : Colors.red,),
 
               ),
             ),
             InkWell(
-              onTap: (){     }   ,
+              onTap: (){                Navigator.push(context, MaterialPageRoute(builder: (context) => Cart()));
+              }   ,
 
               child: ListTile(
-                title : Text ('Categories'),
-                leading : Icon (Icons.dashboard,
+                title : Text ('Cart'),
+                leading : Icon (Icons.shopping_cart,
                   color : Colors.red,),
 
               ),
@@ -165,7 +169,7 @@ class _HomePageState extends State<HomePage> {
               child: ListTile(
                 title : Text ('About API Endpoint'),
                 leading : Icon (Icons.help_outlined,
-                  color : Colors.green,),
+                  ),
 
               ),
             ),

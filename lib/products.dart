@@ -188,7 +188,6 @@ class _ProductsState extends State<Products> {
       "productLaunchDate":"2020-08-06T03:13:37.174Z",
       "productSummary":"I'll synthesize the neural HTTP capacitor, that should protocol the PNG interface!"
     },
-
     { "productId":"16",
       "productName":"Handmade Cotton Chips",
       "productCost":"691.00",
@@ -201,7 +200,6 @@ class _ProductsState extends State<Products> {
       "productLaunchDate":"2020-08-07T23:56:05.722Z",
       "productSummary":"You can't program the bus without bypassing the digital PNG driver!"
     },
-
     {"productId":"17",
       "productName":"Handmade Plastic Hat",
       "productCost":"944.00",
@@ -214,7 +212,6 @@ class _ProductsState extends State<Products> {
       "productLaunchDate":"2020-07-27T07:50:52.197Z",
       "productSummary":"The IB bus is down, quantify the cross-platform circuit so we can reboot the CSS port!"
     },
-
     { "productId":"18",
       "productName":"Licensed Wooden Tuna",
       "productCost":"489.00",
@@ -323,7 +320,6 @@ class _ProductsState extends State<Products> {
       "productLaunchDate":"2020-06-21T13:03:20.522Z",
       "productSummary":"The SAS sensor is down, program the primary port so we can quantify the SMS application!"
     },
-
     {
       "productId":"27",
       "productName":"Handcrafted Soft Salad",
@@ -1197,10 +1193,10 @@ class _ProductsState extends State<Products> {
       "productLaunchDate":"2020-05-25T13:34:30.200Z",
       "productSummary":"We need to parse the open-source TCP sensor!"
     },
-
     {"productId":"100",
       "productName":"Generic Granite Sausages",
-      "productCost":"236.00","productBrand":"Gloves",
+      "productCost":"236.00",
+      "productBrand":"Gloves",
       "productCategory":"Electronics",
       "productColor":"orange",
       "productMaterial":"Fresh",
@@ -1279,6 +1275,7 @@ class SingleProduct extends StatelessWidget {
                   productSummary: productSummary,
 
                 )  )  );
+
               },
               child : GridTile(
                 footer : Container(
